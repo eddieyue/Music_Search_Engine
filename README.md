@@ -14,7 +14,7 @@ Find the Identical Song
 =======================
 
 
-By computing the similar distance for each pair of songs according to the formula$ D = \log{\frac{# common peaks}{max(# peaks in 1st song, # peaks in 2nd song )}} $, I can successfully identy the 74th, 83rd and 6th, 19th songs are the same. 
+By computing the similar distance for each pair of songs according to the formula $$ D = \log{\frac{# common peaks}{max(# peaks in 1st song, # peaks in 2nd song )}} $$, I can successfully identy the 74th, 83rd and 6th, 19th songs are the same. 
 
 Please check the [notebook](http://nbviewer.ipython.org/github/eddieyue/Music_Search_Engine/blob/master/Music_Search_Engine.ipynb) here for detail. 
 

@@ -1,1 +1,23 @@
-# Music_Search_Engine
+Music Search Engine
+====================
+
+In this project, I built a music search engine. By Using simple signal analysis, I converted each song into a series of short strings, each representing a peak in the audio signal. Then, I stored these hashes in a database, allowing fast queries for specific sounds of interest. 
+
+Process Music Data
+===================
+
+As a sample, I used abuot 100 songs from the [Free Music Archive](http://freemusicarchive.org), a royalty-free music source. 
+
+Here is a demo for processing and displaying the music data, [Demo Notebook](http://nbviewer.ipython.org/github/eddieyue/Music_Search_Engine/blob/master/Demo_Music_Data.ipynb)
+
+Find the Identical Song
+=======================
+
+
+By computing the similar distance for each pair of songs according to the formula$ D = \log{\frac{# common peaks}{max(# peaks in 1st song, # peaks in 2nd song )}} $, I can successfully identy the 74th, 83rd and 6th, 19th songs are the same. 
+
+Please check the [notebook](http://nbviewer.ipython.org/github/eddieyue/Music_Search_Engine/blob/master/Music_Search_Engine.ipynb) here for detail. 
+
+
+
+

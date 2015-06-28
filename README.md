@@ -14,7 +14,7 @@ Find the Identical Song
 =======================
 
 
-By computing the similar distance for each pair of songs, I successfully identy the 74th, 83rd and 6th, 19th songs are the same. 
+By computing the similar distance for each pair of songs, I successfully identify the 74th, 83rd and 6th, 19th songs are the same after [manual verification](http://nbviewer.ipython.org/github/eddieyue/Music_Search_Engine/blob/master/Verification%20Notebook.ipynb).
 
 Please check the [notebook](http://nbviewer.ipython.org/github/eddieyue/Music_Search_Engine/blob/master/Music_Search_Engine.ipynb) here for detail. 
 
